@@ -93,6 +93,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Procedural Landmass Generator.CSharp.Plugins.csproj">
+      <Project>{E79A86F6-897D-46B7-4150-91F22DFEE847}</Project>
+      <Name>Procedural Landmass Generator.CSharp.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="Procedural Landmass Generator.CSharp.csproj">
       <Project>{8BED28A0-48C1-89D2-08B1-45EB707262C7}</Project>
       <Name>Procedural Landmass Generator.CSharp</Name>
@@ -104,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\MapGeneratorEditor.cs" />
+    <Compile Include="Assets\Editor\UpdatableDataEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\base.txt" />

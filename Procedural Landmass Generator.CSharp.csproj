@@ -63,7 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Procedural Landmass Generator.CSharp.Plugins.csproj">
+      <Project>{E79A86F6-897D-46B7-4150-91F22DFEE847}</Project>
+      <Name>Procedural Landmass Generator.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Data\NoiseData.cs" />
+    <Compile Include="Assets\Scripts\Data\TerrainDetailData.cs" />
+    <Compile Include="Assets\Scripts\Data\UpdatableData.cs" />
     <Compile Include="Assets\Scripts\FalloffGenerator.cs" />
+    <Compile Include="Assets\Scripts\HideOnPlay.cs" />
     <Compile Include="Assets\Scripts\InfiniteTerrain.cs" />
     <Compile Include="Assets\Scripts\MapDisplay.cs" />
     <Compile Include="Assets\Scripts\MapGenerator.cs" />
