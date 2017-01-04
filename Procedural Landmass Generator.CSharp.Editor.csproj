@@ -97,9 +97,39 @@
       <Project>{8BED28A0-48C1-89D2-08B1-45EB707262C7}</Project>
       <Name>Procedural Landmass Generator.CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Procedural Landmass Generator.CSharp.Editor.Plugins.csproj">
+      <Project>{30290EA3-A2BD-FDA3-52F4-6F19315B37BA}</Project>
+      <Name>Procedural Landmass Generator.CSharp.Editor.Plugins</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\MapGeneratorEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\base.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\case.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\catch.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\class.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\do.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\else.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\enum.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\finally.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\for.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\foreach.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\get.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\if.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\interface.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\log.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\namespace.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\nn.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\set.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\struct.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\switch.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\try.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\CodeSnippets\while.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\EditorResources\Fonts\SourceCodePro-Legal.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\SI Changes.txt" />
+    <None Include="Assets\Plugins\Editor\ScriptInspector3\_readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

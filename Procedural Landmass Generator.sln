@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procedural Landmass Generator.CSharp", "Procedural Landmass Generator.CSharp.csproj", "{8BED28A0-48C1-89D2-08B1-45EB707262C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procedural Landmass Generator.CSharp.Editor.Plugins", "Procedural Landmass Generator.CSharp.Editor.Plugins.csproj", "{30290EA3-A2BD-FDA3-52F4-6F19315B37BA}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procedural Landmass Generator.CSharp.Editor", "Procedural Landmass Generator.CSharp.Editor.csproj", "{796FFB3B-6B75-463C-143E-FBBF64BE64C7}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{8BED28A0-48C1-89D2-08B1-45EB707262C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BED28A0-48C1-89D2-08B1-45EB707262C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BED28A0-48C1-89D2-08B1-45EB707262C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30290EA3-A2BD-FDA3-52F4-6F19315B37BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30290EA3-A2BD-FDA3-52F4-6F19315B37BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30290EA3-A2BD-FDA3-52F4-6F19315B37BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30290EA3-A2BD-FDA3-52F4-6F19315B37BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{796FFB3B-6B75-463C-143E-FBBF64BE64C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{796FFB3B-6B75-463C-143E-FBBF64BE64C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{796FFB3B-6B75-463C-143E-FBBF64BE64C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
