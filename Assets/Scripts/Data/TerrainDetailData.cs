@@ -16,4 +16,15 @@ public class TerrainDetailData : UpdatableData {
 	[Range(0.5f,3f)]
 	public float maxHeightMagnitude = 1f;	
 	
+	public float minHeight {
+		get {
+			return uniformScale * meshHeightMultiplier * meshHeightCurve.Evaluate (0);
+		}	
+	}
+	
+	public float maxHeight {
+		get {
+			return uniformScale * meshHeightMultiplier * meshHeightCurve.Evaluate (1);
+		}	
+	}
 }

@@ -138,8 +138,11 @@ public class MapGenerator : MonoBehaviour {
 	            }
 	        }
 	    }
+	    
+	    textureData.UpdateMeshHeights(terrainMaterial, terrainData.minHeight, terrainData.maxHeight);
 
-        return new global::MapData(noiseMap);
+	    //return new global::MapData(noiseMap);
+	    return new MapData(noiseMap);
     }
 
     void OnValidate()

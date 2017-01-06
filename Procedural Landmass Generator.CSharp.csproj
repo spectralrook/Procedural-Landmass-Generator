@@ -107,6 +107,7 @@
     <None Include="Assets\Plugins\Editor\ScriptInspector3\EditorResources\Fonts\SourceCodePro-Legal.txt" />
     <None Include="Assets\Plugins\Editor\ScriptInspector3\SI Changes.txt" />
     <None Include="Assets\Plugins\Editor\ScriptInspector3\_readme.txt" />
+    <None Include="Assets\Shaders\Terrain.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
